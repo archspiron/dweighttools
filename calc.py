@@ -13,12 +13,18 @@ while True:
 	 result = x * y * z
 	 result = math.ceil(result/139.0)
 	 print(result)
-	
+if input('REPEAT?(Y/N): ') == 'n':
+	break
 
 
+while True:
 
-#if gate == '2':
- #    print('TG D-WEIGHT IS 19LBS')
-  #   print('UG D-WEIGHT IS 31LBS')
-   #  print('PG D-WEIGHT IS TBD')
+ if gate == '2':
+ 
+     print('TG D-WEIGHT IS 19LBS')
+     print('UG D-WEIGHT IS 31LBS')
+     print('PG D-WEIGHT IS TBD')
+	 
+ if input('REPEAT?(Y/N): ') == 'n':
+	break
  
