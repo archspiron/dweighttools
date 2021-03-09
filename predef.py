@@ -8,4 +8,4 @@ def prefab():
         print('UG D-WEIGHT IS 31LBS')
 
     elif option in ('pg', 'PG'):
-        print('PG D-WEIGHT IS TBD')
+        print('PG D-WEIGHT IS 90LBS')
