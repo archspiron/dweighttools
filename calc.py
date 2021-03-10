@@ -4,7 +4,7 @@ from predef import prefab
 from zip import ziplook
 
 while True:
-	gate = int(input('OPTION 1 FOR D-WEIGHT, OPTION 2 FOR CUBIC FOOT CALC., OPTION 3 FOR ZIP TRANSIT TIME '))
+	gate = int(input('OPTION 1 FOR D-WEIGHT, OPTION 2 FOR CUBIC FOOT CALC., OPTION 3 FOR FXG TRANSIT TIME '))
 
 	if gate == 1:
 		gated = int(input('1 FOR MANUAL INPUT, 2 FOR GOVERNOR BOX TYPE '))
