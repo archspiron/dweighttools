@@ -2,23 +2,32 @@ from eq import boxmath
 from cf import cube
 from predef import prefab
 from zip import ziplook
-
+print("""
+  /$$$$$$ /$$$$$$$                      /$$$$$$$$/$$$$$$  /$$$$$$ /$$       /$$$$$$ 
+ /$$__  $| $$__  $$                    |__  $$__/$$__  $$/$$__  $| $$      /$$__  $$
+| $$  \__| $$  \ $$                       | $$ | $$  \ $| $$  \ $| $$     | $$  \__/
+|  $$$$$$| $$$$$$$/       /$$$$$$         | $$ | $$  | $| $$  | $| $$     |  $$$$$$ 
+ \____  $| $$__  $$      |______/         | $$ | $$  | $| $$  | $| $$      \____  $$
+ /$$  \ $| $$  \ $$                       | $$ | $$  | $| $$  | $| $$      /$$  \ $$
+|  $$$$$$| $$  | $$                       | $$ |  $$$$$$|  $$$$$$| $$$$$$$|  $$$$$$/
+ \______/|__/  |__/                       |__/  \______/ \______/|________/\______/ 
+""")
 while True:
-	gate = int(input('OPTION 1 FOR D-WEIGHT, OPTION 2 FOR CUBIC FOOT CALC., OPTION 3 FOR FXG TRANSIT TIME '))
+	mainMenu = int(input('OPTION 1 FOR D-WEIGHT, OPTION 2 FOR CUBIC FOOT CALC., OPTION 3 FOR FXG TRANSIT TIME '))
 
-	if gate == 1:
-		gated = int(input('1 FOR MANUAL INPUT, 2 FOR GOVERNOR BOX TYPE '))
+	if mainMenu == 1:
+		dMenu = int(input('1 FOR MANUAL INPUT, 2 FOR GOVERNOR BOX TYPE '))
 
-		if gated == 1:
+		if dMenu == 1:
 			boxmath()
 		
-		elif gated == 2:
+		elif dMenu == 2:
 			prefab()
 
-	elif gate == 2:
+	elif mainMenu == 2:
 	    cube()
 
-	elif gate == 3:
+	elif mainMenu == 3:
 		ziplook()
 
 	if input('REPEAT?(Y/N): ') in ('n', 'N'):
