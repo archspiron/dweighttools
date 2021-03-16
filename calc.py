@@ -13,21 +13,28 @@ print("""
  \______/|__/  |__/                       |__/  \______/ \______/|________/\______/ 
 """)
 while True:
-	mainMenu = int(input('OPTION 1 FOR D-WEIGHT, OPTION 2 FOR CUBIC FOOT CALC., OPTION 3 FOR FXG TRANSIT TIME '))
+	mainMenu = int(input("""
+OPTION 1: CACLULATOR TOOLS
+OPTION 2: FEDEX GROUND TRANSIT TIMES
+	"""))
 
 	if mainMenu == 1:
-		dMenu = int(input('1 FOR MANUAL INPUT, 2 FOR GOVERNOR BOX TYPE '))
+		cMenu = int(input("""
+OPTION 1: D-WEIGHT BY XYZ INPUT
+OPTION 2: D-WEIGHT BY GOVERNOR BOX TYPE
+OPTION 3: CUBIC FOOT CALCULATOR
+		"""))
 
-		if dMenu == 1:
+		if cMenu == 1:
 			boxmath()
 		
-		elif dMenu == 2:
+		elif cMenu == 2:
 			prefab()
 
-	elif mainMenu == 2:
-	    cube()
+		elif cMenu == 3:
+			cube()
 
-	elif mainMenu == 3:
+	elif mainMenu == 2:
 		ziplook()
 
 	if input('REPEAT?(Y/N): ') in ('n', 'N'):
