@@ -16,14 +16,14 @@ while True:
 	mainMenu = int(input("""
 OPTION 1: CACLULATOR TOOLS
 OPTION 2: FEDEX GROUND TRANSIT TIMES
-	"""))
+"""))
 
 	if mainMenu == 1:
 		cMenu = int(input("""
 OPTION 1: D-WEIGHT BY XYZ INPUT
 OPTION 2: D-WEIGHT BY GOVERNOR BOX TYPE
 OPTION 3: CUBIC FOOT CALCULATOR
-		"""))
+"""))
 
 		if cMenu == 1:
 			boxmath()
