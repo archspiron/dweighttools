@@ -5,16 +5,19 @@ from zip import ziplook
 from lookup import look
 from convert import inchToCM
 from convert import cmToInch
-print("""
-  /$$$$$$ /$$$$$$$                      /$$$$$$$$/$$$$$$  /$$$$$$ /$$       /$$$$$$ 
- /$$__  $| $$__  $$                    |__  $$__/$$__  $$/$$__  $| $$      /$$__  $$
-| $$  \__| $$  \ $$                       | $$ | $$  \ $| $$  \ $| $$     | $$  \__/
-|  $$$$$$| $$$$$$$/       /$$$$$$         | $$ | $$  | $| $$  | $| $$     |  $$$$$$ 
- \____  $| $$__  $$      |______/         | $$ | $$  | $| $$  | $| $$      \____  $$
- /$$  \ $| $$  \ $$                       | $$ | $$  | $| $$  | $| $$      /$$  \ $$
-|  $$$$$$| $$  | $$                       | $$ |  $$$$$$|  $$$$$$| $$$$$$$|  $$$$$$/
- \______/|__/  |__/                       |__/  \______/ \______/|________/\______/ 
-""")
+import curses
+
+
+MainMenu = curses.initscr()
+MainMenu.border(0)
+MainMenu.addstr(1, 50, "SRTOOLS")
+MainMenu.addstr(10, 40, "OPTION 1: CACLULATOR TOOLS")
+MainMenu.addstr(11, 40, "OPTION 2: FEDEX GROUND TRANSIT TIMES")
+MainMenu.addstr(12, 40, "OPTION 3: PART NUMBER LOOKUP")
+MainMenu.refresh()
+MainMenu.getch()
+curses.endwin()
+
 while True:
 	mainMenu = int(input("""
 OPTION 1: CACLULATOR TOOLS
