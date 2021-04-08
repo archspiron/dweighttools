@@ -32,6 +32,32 @@ def look():
         print('14 x 14 x 14 - 17LBS - 8412.29.8075')
     elif part in ('A8516-046'):
         print('14 x 14 x 14 - 17LBS - 8412.29.8075')
+    elif part in ('8516-185'):
+        print('14 x 14 x 14 - 17LBS - 8481.80.9020')
+    elif part in ('8516-186'):
+        print('14 x 14 x 14 - 17LBS - 8481.80.9020')
+    elif part in ('8516-187'):
+        print('14 x 14 x 14 - 17LBS - 8481.80.9020')
+    elif part in ('8516-188'):
+        print('14 x 14 x 14 - 17LBS - 8481.80.9020')
+    elif part in ('8516-190'):
+        print('14 x 14 x 14 - 17LBS - 8481.80.9020')
+    elif part in ('8516-191'):
+        print('14 x 14 x 14 - 17LBS - 8481.80.9020')
+    elif part in ('8516-179'):
+        print('14 x 14 x 14 - 17LBS - 8481.80.9020')
+    elif part in ('8516-191'):
+        print('14 x 14 x 14 - 17LBS - 8481.80.9020')
+    elif part in ('8440-1855'):
+        print('12 X 8 X 6 - 2.5LBS - 8537.10.9060')
+    elif part in ('8440-2169'):
+        print('12 X 8 X 6 - 2LBS - 8537.10.9160')
+    elif part in ('8440-1878'):
+        print('14 X 11 X 7 - 6.5LBS - 8537.10.9060')
+    elif part in ('8237-1596'):
+        print('24 X 18 X 12 - 33LBS - 8537.10.9170')
+    
+
     
         
         
